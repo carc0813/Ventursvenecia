@@ -1,0 +1,13 @@
+
+img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 650px;
+  height: 350px;
+}
+
+#imagenescentradas{
+  text-align: center;
+}
+

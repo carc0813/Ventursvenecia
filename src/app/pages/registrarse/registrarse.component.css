@@ -1,0 +1,21 @@
+
+h2{
+	margin-top: auto;
+	margin-left:auto;
+	font-weight:normal;
+	text-align:center;
+	color:black;
+	font-size:25px;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+  width: 450px;
+}
+

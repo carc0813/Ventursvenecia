@@ -1,0 +1,49 @@
+
+<br>
+<br>
+<br>
+  <h2  text-align: center>FORMULARIO DE REGISTRO </h2>
+
+  <br><br>
+
+<div class="container">
+  <div class="abs-center">
+    <form #formContacto=""(ngSubmit)="onSubmit()" class="border p-3 form">
+      <div class="form-group"  >
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" class="form-control"placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="email">Cédula:</label>
+        <input type="text" class="form-control" name="txtId" id="email" placeholder="documento">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Nombre:</label>
+        <input type="text" class="form-control" name="txtNombre" id="pwd" placeholder="nombre">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Apellido:</label>
+        <input type="text" class="form-control" name="txtApellido" id="pwd" placeholder="apellido">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Sexo:</label>
+        <input type="text" class="form-control" name="txtSexo" id="pwd" placeholder="Sexo">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Fecha:</label>
+        <input type="text" class="form-control" name="txtFecha" id="pwd" placeholder="Fecha">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Direccion:</label>
+        <input type="text" class="form-control" name="txtDireccion" id="pwd" placeholder="Direccion">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Telefono:</label>
+        <input type="text" class="form-control" name="txtTelefono" id="pwd" placeholder="Telefono">
+    </div>
+
+
+<button type="submit" class="btn btn-success">Registrar</button>
+
+    </form>
+  </div>
